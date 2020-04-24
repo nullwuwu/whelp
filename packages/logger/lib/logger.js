@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = new Logger();
-
 class Logger {
   constructor(options) {
     this.setOptions(options)
@@ -50,3 +48,5 @@ class Logger {
     this.log(chalk.cyan('tip'), ...args)
   }
 }
+
+module.exports = new Logger();
