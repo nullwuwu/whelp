@@ -1,0 +1,8 @@
+node_modules
+*.log
+dist
+/.changelog
+.vscode
+.idea
+.DS_Store
+.test-projects
