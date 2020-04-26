@@ -1,39 +1,43 @@
 {
-  "name": "maid",
-  "version": "0.0.0",
-  "main": "lib/index.js",
-  "bin": "bin/cli.js",
-  "description": "> TODO: description",
-  "author": "nullwuwu <13671802215@163.com>",
-  "homepage": "https://github.com/nullwuwu/whelp#readme",
-  "license": "ISC",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "http://npm.poizon.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nullwuwu/whelp.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/nullwuwu/whelp/issues"
-  },
-  "dependencies": {
-    "cac": "^6.5.8",
-    "joycon": "^2.2.5",
-    "lodash": "^4.17.15",
-    "ora": "^4.0.4",
-    "resolve-from": "^5.0.0",
-    "superstruct": "^0.8.3",
-    "v8-compile-cache": "^2.1.0"
-  }
+    "name": "maid",
+    "version": "0.0.0",
+    "main": "lib/index.js",
+    "bin": "bin/cli.js",
+    "description": "> TODO: description",
+    "author": "nullwuwu <13671802215@163.com>",
+    "homepage": "https://github.com/nullwuwu/whelp#readme",
+    "license": "ISC",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "http://npm.poizon.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nullwuwu/whelp.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/nullwuwu/whelp/issues"
+    },
+    "dependencies": {
+        "cac": "^6.5.8",
+        "fs-extra": "^9.0.0",
+        "joycon": "^2.2.5",
+        "lodash": "^4.17.15",
+        "ora": "^4.0.4",
+        "posthtml": "^0.12.3",
+        "resolve-from": "^5.0.0",
+        "superstruct": "^0.8.3",
+        "v8-compile-cache": "^2.1.0",
+        "webpack-chain": "^6.4.0",
+        "webpack-merge": "^4.2.2"
+    }
 }

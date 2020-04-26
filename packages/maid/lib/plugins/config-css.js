@@ -1,4 +1,4 @@
-const logger = require('@poi/logger')
+const logger = require('@maid/logger')
 
 exports.name = 'builtin:config-css'
 

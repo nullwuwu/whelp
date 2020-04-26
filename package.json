@@ -1,15 +1,20 @@
 {
-  "name": "whelp",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.18.3"
-  },
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "whelp",
+    "private": true,
+    "devDependencies": {
+        "lerna": "^3.18.3"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cd": "^0.3.3",
+        "posthtml": "^0.12.3",
+        "whelp": "/Users/minjie/Desktop/playspace/whelp"
+    }
 }
